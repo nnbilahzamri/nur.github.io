@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Contact Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+     <div class= "three">
+       <div class="navlink">
+             <nav>
+                 <ul>
+                     <li><a href="index.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT ME</a></li>
+                     <li><a href="portfolio.html">PORTFOLIO</a></li>
+                     <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+             </nav>
+         </div>
+         
+         
+         <div class="content3">
+             <div class='content3line'>
+             <h1>Contact Me</h1>
+             <p>Feel free to contact me for any inquiries.</p>
+             <div class='contactbox'>
+                 <div class='contactleft'>
+                     <h3>Send your request</h3>
+                     <form>
+                         
+                         <div class='inputrow'>
+                             <div class='inputgroup'>
+                                 <label>Name:</label>
+                                 <input type='text' placeholder='Johan Smith'>
+                             </div>
+                             <div class='inputgroup'>
+                                 <label>Contact Number:</label>
+                                 <input type='text' placeholder='+60 12 345 6789'>
+                             </div>
+                         </div>
+                          <div class='inputrow'>
+                             <div class='inputgroup'>
+                                 <label>Email:</label>
+                                 <input type='email' placeholder='johansmith@atwork.com'>
+                             </div>
+                             <div class='inputgroup'>
+                                 <label>Subject:</label>
+                                 <input type='text' placeholder='Business Inquiries'>
+                             </div>
+                         </div>
+                         <label>Message</label>
+                         <textarea rows='5' placeholder='Your Message'></textarea>
+                         <button type='submit' onclick='openPopup()'>SUBMIT</button>
+                         <div class='popup' id='popup'>
+                             <img src='gambar/gambar11.png' alt=''>
+                             <h2>Thank you for your interest!</h2>
+                             <p>Your details has been successfully submitted</p>
+                             <button type='button' onclick='closePopup()'>OK</button>
+                         </div>
+                         
+                     </form>
+                 </div>
+                 <div class='contactright'>
+                     <h3>Reach Me</h3>
+                     <a class='socialicon' href='https://twitter.com/nnbilahntsha' target='_blank'><ion-icon name="logo-twitter"></ion-icon></a><br>
+                     <p>TWITTER</p><br>
+                     <a class='socialicon' href='https://www.instagram.com/nblhysm/' target='_blank'><ion-icon name="logo-instagram"></ion-icon></a><br>
+                     <p>INSTAGRAM</p><br>
+                     <a class='socialicon' href='' target='_blank'><ion-icon name="mail-unread-outline"></ion-icon></ion-icon></a><br>
+                     <p>nnbilahzamri@gmail.com</p>
+                 </div>
+             </div>
+      </div>
+      </div>
+     </div>
+        <script src="java.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
